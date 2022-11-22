@@ -1,0 +1,99 @@
+body{
+    font-size: 18px; 
+    margin: 30px 250px;
+    font-family: 'Barlow';   
+}
+p{
+    color: hsl(221, 23%, 58%);
+}
+.bottom{
+    background-color:hsl(22, 89%, 52%);
+    padding: 10px;
+    border-radius: 10px;
+}
+.main{
+    display: flex;
+    justify-content: space-between;
+}
+.main1{
+    display: flex;
+    margin-bottom: 100px;
+}
+.witdh1{
+    width: 400px;
+    margin-top: 20px;
+    border-radius: 10px;
+    height: 300px;
+}
+.witdh2{
+    width: 200px;
+    margin-top: 20px;
+    border-radius: 10px;
+    height: 300px;
+    margin-right: 20px;
+    color: red;
+    background-blend-mode: color;
+    opacity: 200%;
+    
+}
+.witdh2::before{
+    background-color: red;
+}
+.witdh3{
+    width: 450px;
+    margin-top: 20px;
+    border-radius: 10px;
+    height: 300px;
+}
+header{
+    display: flex;
+    justify-content: space-between;
+
+}
+.pre{
+    background-color: hsl(22, 89%, 52%);
+    color: white;
+    padding: 15px 25px;
+    border-radius: 5px;
+    font-weight: 700;
+}
+.pre1{
+    background-color: hsl(198, 28%, 93%);
+    color: black;
+    padding: 15px 25px;
+    border-radius: 5px;
+    font-weight: 700;
+}
+.pre2{
+    background-color: white;
+    color:  hsl(221, 23%, 58%);
+    padding: 15px 25px;
+    font-weight: 700;
+}
+button{
+    border: none;
+}
+.sub1{
+    width: 500px;
+}
+.sub5{
+    width: 250px;
+}
+.h1{
+    font-size: 50px;
+    color: black;
+    font-family:'Barlow', sans-serif;
+    font-weight: 900;
+}
+.sub9 , .sub8 , .sub7 , .sub6 {
+    width: 250px;
+}
+h2 , h3{
+    font-family:'Barlow', sans-serif;
+    font-weight:0;
+}
+footer{
+    text-align: center;
+    background-color: black;
+    color: white;
+}
