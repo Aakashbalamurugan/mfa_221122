@@ -31,7 +31,8 @@ p{
     margin-top: 20px;
     border-radius: 10px;
     height: 400px;
-    margin-right: 20px;    
+    margin-right: 20px;
+    filter: invert(38%) sepia(13%) saturate(3207%) hue-rotate(351deg) brightness(85%) contrast(90%);    
 }
 .witdh3{
     width: 450px;
